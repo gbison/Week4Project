@@ -1,7 +1,6 @@
 package com.example.week4project;
 
 import android.content.Context;
-import android.provider.MediaStore;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
@@ -72,7 +71,7 @@ public class Question {
     }
 
     //Constructor
-    public Question(Context context){
+    public Question(Context context) {
 
         //Here we are hardcoding this values, ideally you want to format a text file that you
         //could read values from so that you could plug question sets into the app.
@@ -108,8 +107,7 @@ public class Question {
     }
 
     //General Methods.
-    public void AddGroup(RadioGroup buttonGroup)
-    {
+    public void AddGroup(RadioGroup buttonGroup) {
         //Add to group
         buttonGroup.addView(buttonA);
         buttonGroup.addView(buttonB);
